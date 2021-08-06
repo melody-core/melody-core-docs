@@ -1,17 +1,16 @@
 module.exports = {
-  title: '文档',
+  title: 'melody-cli',
   description: '开发文档,持续更新中....',
-  theme: 'reco',
   themeConfig: {
     sidebarDepth: 1,
     lastUpdated: '上次更新',
-    authorAvatar: '/logo.png',
+    logo: '/melody-logo.png',
     head: [
       [
         'link',
         {
           rel: 'icon',
-          href: '/',
+          href: '/favicon.ico',
         },
       ],
     ],
