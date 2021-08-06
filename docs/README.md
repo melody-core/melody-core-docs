@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /imgs/logo.png
+heroImage: /logo.png
 heroText: 音巢
 tagline: 音巢(melody-core),谱写技术最强音!
-actionText: melody world 
-actionLink: /guide/
+actionText: melody world  >>>
+actionLink: /melody-core/melody-cli/
 features:
 - title: 开源组织
   details: 音巢面向开源, 组织内所有成员称之为执行者, 每个执行者都具有唯一的编号和花名, 如 执行者No.1-@朽木白。
