@@ -18,7 +18,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: melody-core/melody-core.github.io
           TARGET_BRANCH: master
-          BUILD_SCRIPT: yarn && yarn build
+          BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist/
           COMMIT_MESSAGE: 构建成功
           CNAME: docs网址：https://melody-core.github.io/
