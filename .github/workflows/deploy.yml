@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '12.x'
       - run: yarn install
-      - run: yarn build
+      - run: yarn docs:build
       - run: echo 'note.raindays.cn' > CNAME
       - name: Deploy melody-core.github.io/master
         uses: peaceiris/actions-gh-pages@v2
