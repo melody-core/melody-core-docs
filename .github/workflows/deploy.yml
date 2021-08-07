@@ -6,23 +6,19 @@ on:
       - master
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Use Node.js 12.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-      - run: yarn install
-      - run: yarn docs:build
-      - run: echo 'note.raindays.cn' > CNAME
-      - name: Deploy melody-core.github.io/master
-        uses: peaceiris/actions-gh-pages@v2
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Build and Deploy
+        uses: jenkey2011/vuepress-deploy@v1.8.1
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          EXTERNAL_REPOSITORY: melody-core/melody-core.github.io
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: docs/.vuepress/dist
-        with:
-          emptyCommits: false
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: melody-core/melody-core.github.io
+          TARGET_BRANCH: master
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: docs/.vuepress/dist/
+          COMMIT_MESSAGE: 构建成功
+          CNAME: docs网址：https://melody-core.github.io/
