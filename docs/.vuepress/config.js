@@ -1,5 +1,3 @@
-
-
 module.exports = {
   title: '音巢',
   description: '音巢(melody-core),谱写技术最强音!',
@@ -25,10 +23,12 @@ module.exports = {
       {
         text: 'melody-doc-org',
         link: '/melody-core/melody-cli/',
-      },{
+      },
+      {
         text: 'melody-github-org',
         link: 'https://github.com/melody-core',
-      },{
+      },
+      {
         text: 'melody-npm-org',
         link: 'https://www.npmjs.com/org/melody-core/',
       },
@@ -36,13 +36,20 @@ module.exports = {
     sidebar: {
       // '/melody-core/melody-cli/':[''],
       // '/melody-core/leo/': [''],
-      '/melody-core/': [{
-        title: 'melody-cli',
-        path: '/melody-core/melody-cli/'
-      }, {
-        title: 'leo',
-        path: '/melody-core/leo/'
-      }],
+      '/melody-core/': [
+        {
+          title: 'melody-cli',
+          path: '/melody-core/melody-cli/',
+        },
+        {
+          title: 'leo',
+          path: '/melody-core/leo/',
+        },
+        {
+          title: 'template',
+          path: '/melody-core/template/',
+        },
+      ],
     },
   },
 };
