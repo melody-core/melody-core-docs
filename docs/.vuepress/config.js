@@ -36,20 +36,46 @@ module.exports = {
     sidebar: {
       // '/melody-core/melody-cli/':[''],
       // '/melody-core/leo/': [''],
-      '/melody-core/': [
-        {
+      '/melody-core/':  [{
+        title: '组织',
+        collapsable: false,
+        children: [{
+          title: '简介',
+          path: '/melody-core/mc-org/'
+        }]
+      },{
+        title: "CLI文档集锦",
+        collapsable: false,
+        children:  [{
           title: 'melody-cli',
-          path: '/melody-core/melody-cli/',
-        },
-        {
+          path: '/melody-core/melody-cli/'
+        }, {
           title: 'leo',
-          path: '/melody-core/leo/',
-        },
-        {
-          title: 'template',
-          path: '/melody-core/template/',
-        },
-      ],
+          path: '/melody-core/leo/'
+        },{
+          title: 'cli-spy',
+          path: '/melody-core/cli-spy/'
+        }]
+      },{
+        title: '屠龙术文档集锦',
+        collapsable: false,
+        children: [{
+          title: 'W_EOS',
+          path: '/melody-core/ds/W_EOS/'
+        },{
+          title: 'W_CMC',
+          path: '/melody-core/ds/W_CMC/'
+        },{
+          title: 'W_LCP',
+          path: '/melody-core/ds/W_LCP/'
+        },{
+          title: 'W_UBC',
+          path: '/melody-core/ds/W_UBC/'
+        },{
+          title: 'W_BDG',
+          path: '/melody-core/ds/W_BDG/'
+        }]
+      }],
     },
   },
 };
