@@ -53,6 +53,9 @@ module.exports = {
           title: 'leo',
           path: '/melody-core/leo/'
         },{
+          title: 'holmes',
+          path: '/melody-core/holmes/'
+        },{
           title: 'cli-spy',
           path: '/melody-core/cli-spy/'
         }]
