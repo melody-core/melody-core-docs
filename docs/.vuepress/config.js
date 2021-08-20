@@ -32,6 +32,10 @@ module.exports = {
         text: 'melody-npm-org',
         link: 'https://www.npmjs.com/org/melody-core/',
       },
+      {
+        text: 'melody-yuque-org',
+        link: 'https://melody-core.yuque.com/dashboard',
+      }
     ],
     sidebar: {
       // '/melody-core/melody-cli/':[''],
