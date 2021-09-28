@@ -66,6 +66,12 @@ module.exports = {
         },{
           title: 'cli-spy',
           path: '/melody-core/cli-spy/'
+        }, {
+          title: 'historian',
+          path: '/melody-core/historian/'
+        }, {
+          title: 'Rem',
+          path: '/melody-core/rem/'
         }]
       },{
         title: '屠龙术文档集锦',
