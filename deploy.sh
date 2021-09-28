@@ -12,6 +12,7 @@ cd docs/.vuepress/dist
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 git clone https://github.com/melody-core/rem.github.io.git rem
+rm -rf rem/.git
 git init
 git add -A
 git commit -m 'deploy'
