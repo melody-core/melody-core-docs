@@ -4,17 +4,17 @@
 set -e
 
 # 生成静态文件
-yarn docs:build
+ yarn docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
+git clone https://github.com/melody-core/rem.github.io.git
 
+node ../fixName.js
 git init
 git add -A
 git commit -m 'deploy'
-
-# 如果发布到 https://amjanney.github.io
 git push -f https://github.com/melody-core/melody-core.github.io.git master

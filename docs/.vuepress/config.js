@@ -21,6 +21,10 @@ module.exports = {
     editLinkText: '参与文档维护',
     nav: [
       {
+        text: 'Rem UI',
+        link: 'https://melody-core.github.io/rem/',
+      },
+      {
         text: 'melody-doc-org',
         link: '/melody-core/melody-cli/',
       },
