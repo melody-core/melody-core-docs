@@ -52,6 +52,12 @@ module.exports = {
           path: '/melody-core/mc-org/'
         }]
       },{
+        title: 'RemUI',
+        children:[{
+          title: 'Rem组件库文档',
+          path: '/melody-core/rem/'
+        }]
+      },{
         title: "CLI文档集锦",
         collapsable: false,
         children:  [{
@@ -69,9 +75,6 @@ module.exports = {
         }, {
           title: 'historian',
           path: '/melody-core/historian/'
-        }, {
-          title: 'Rem',
-          path: '/melody-core/rem/'
         }]
       },{
         title: '屠龙术文档集锦',
