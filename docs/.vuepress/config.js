@@ -75,6 +75,9 @@ module.exports = {
         }, {
           title: 'historian',
           path: '/melody-core/historian/'
+        }, {
+          title: 'ram',
+          path: '/melody-core/ram/'
         }]
       },{
         title: '屠龙术文档集锦',
