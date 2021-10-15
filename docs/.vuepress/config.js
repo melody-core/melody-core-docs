@@ -83,6 +83,9 @@ module.exports = {
         title: '屠龙术文档集锦',
         collapsable: false,
         children: [{
+          title: 'W_BDG',
+          path: '/melody-core/ds/W_BDG/'
+        },{
           title: 'W_EOS',
           path: '/melody-core/ds/W_EOS/'
         },{
@@ -95,8 +98,8 @@ module.exports = {
           title: 'W_UBC',
           path: '/melody-core/ds/W_UBC/'
         },{
-          title: 'W_BDG',
-          path: '/melody-core/ds/W_BDG/'
+          title: 'W_CLE',
+          path: '/melody-core/ds/W_CLE/'
         }]
       }],
     },
