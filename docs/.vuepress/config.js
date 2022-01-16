@@ -78,6 +78,9 @@ module.exports = {
         }, {
           title: 'ram',
           path: '/melody-core/ram/'
+        }, {
+          title: 'melody-git-hooks',
+          path: '/melody-core/melody-git-hooks/'
         }]
       },{
         title: '屠龙术文档集锦',

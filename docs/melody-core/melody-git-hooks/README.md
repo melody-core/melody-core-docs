@@ -1,5 +1,6 @@
 # @melody-core/melody-git-hook
 
+> 提供了强大的git hooks功能。
 ## how to use？
 
 ### English
